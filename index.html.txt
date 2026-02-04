@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>OPE Website</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <header>
+    <h1>Welcome to OPE</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="home">
+      <h2>Empowering Innovation</h2>
+      <p>OPE delivers cutting-edge solutions.</p>
+      <img src="ope.jpg" alt="OPE image">
+      <button id="click-btn">Get Started</button>
+    </section>
+    <section id="about">
+      <h2>About OPE</h2>
+      <p>We drive progress with tech and creativity.</p>
+    </section>
+    <section id="services">
+      <h2>Our Services</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Web Development</h3>
+          <p>Custom websites for businesses.</p>
+        </div>
+        <div class="card">
+          <h3>Digital Marketing</h3>
+          <p>Boost your online presence.</p>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form>
+        <input type="text" placeholder="Name">
+        <input type="email" placeholder="Email">
+        <textarea placeholder="Message"></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 OPE</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

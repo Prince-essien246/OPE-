@@ -1,0 +1,8 @@
+document.getElementById('click-btn').onclick = () => {
+  alert('Let\'s get started! 🌟');
+};
+
+document.querySelector('form').onsubmit = (e) => {
+  e.preventDefault();
+  alert('Message sent!');
+};
